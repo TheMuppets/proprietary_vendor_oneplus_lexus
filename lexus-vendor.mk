@@ -1728,7 +1728,6 @@ PRODUCT_PACKAGES += \
     libyuvwrapper \
     libzlib \
     vendor.oplus.hardware.camera_rfi-V1-service-impl \
-    vendor.oplus.hardware.display.MixLut3D-V1-ndk_platform \
     vendor.oplus.hardware.sendextcamcmd-V1-service-impl \
     vendor.pixelworks.hardware.display@1.0 \
     vendor.pixelworks.hardware.display@1.1 \
