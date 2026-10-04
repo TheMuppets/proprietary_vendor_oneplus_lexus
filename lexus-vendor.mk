@@ -50,8 +50,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/acdb_cal.acdb:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/acdb_cal.acdb \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/up_ve_enpuv4_ha.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv4_ha.eai \
     vendor/oneplus/lexus/proprietary/odm/etc/acdbdata/up_ve_enpuv4_hh.eai:$(TARGET_COPY_OUT_ODM)/etc/acdbdata/up_ve_enpuv4_hh.eai \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/AiFace.json:$(TARGET_COPY_OUT_ODM)/etc/camera/AiFace.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/BodySeg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/BodySeg.json \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/CameraHWConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraHWConfiguration.config \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/CameraOemConfiguration.config:$(TARGET_COPY_OUT_ODM)/etc/camera/CameraOemConfiguration.config \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/M_FaceAttribute_RGB.model:$(TARGET_COPY_OUT_ODM)/etc/camera/M_FaceAttribute_RGB.model \
@@ -60,33 +58,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/Vega_Track_Animals_Gray.model:$(TARGET_COPY_OUT_ODM)/etc/camera/Vega_Track_Animals_Gray.model \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.2.0_2468630351544828688.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aiboost_qnn_htp2.2.0_3404116395018271362.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/aigc_models/blurDet_sm7675.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/blurDet_sm7675.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/aigc_models/faceSeg_sm7675.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/faceSeg_sm7675.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/aigc_models/gfpgan1024_sm7675.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/gfpgan1024_sm7675.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/aigc_models/noise300.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/aigc_models/noise300.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libODNN.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libOPAlgoCamAIGCFace.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libQnnHtp.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnHtp.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libQnnHtpV73Stub.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnHtpV73Stub.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libQnnSystem.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libQnnSystem.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/aigc/libs/libzlib.so:$(TARGET_COPY_OUT_ODM)/etc/camera/aigc/libs/libzlib.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/anc/fusion_model:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/anc/fusion_model_post:$(TARGET_COPY_OUT_ODM)/etc/camera/anc/fusion_model_post \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/anc_cl_kernel.cache \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/ancbokehseg/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancbokehseg/anc_cl_kernel.cache \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/ancsegbase/anc_cl_kernel.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/anc_cl_kernel.cache \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_2_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_2_model.data \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/ancsegbase/ancsegmulti_5_model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/ancsegmulti_5_model.data \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/ancsegbase/model.data:$(TARGET_COPY_OUT_ODM)/etc/camera/ancsegbase/model.data \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/asd/class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/class.dlc \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/asd/detect.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/detect.dlc \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/asd/v204_class.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/asd/v204_class.dlc \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/ashdr/ncf_pack.ncf:$(TARGET_COPY_OUT_ODM)/etc/camera/ashdr/ncf_pack.ncf \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/camera_engmode.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/camera_engmode.xml \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/capture_bokeh_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_bokeh_params.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/capture_lutportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_lutportrait_params.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/capture_neonportrait_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/capture_neonportrait_params.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_OPlus_EF017_UW_snapshot.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/cfr_bin/CFR_lexusfront.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_lexusfront.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/cfr_bin/CFR_lexusmain.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_lexusmain.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/cfr_bin/CFR_lexuswide.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/cfr_bin/CFR_lexuswide.bin \
@@ -96,12 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/lexusfront:$(TARGET_COPY_OUT_ODM)/etc/camera/config/lexusfront \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/lexusmain:$(TARGET_COPY_OUT_ODM)/etc/camera/config/lexusmain \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/lexuswide:$(TARGET_COPY_OUT_ODM)/etc/camera/config/lexuswide \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_camera_algo_switch_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_switch_config \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_camera_algo_traversal_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_algo_traversal_config.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_camera_aps_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_aps_config \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_camera_config:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_config \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_camera_preview_decision_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_camera_preview_decision_config.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/config/oplus_preview_decision_params.json:$(TARGET_COPY_OUT_ODM)/etc/camera/config/oplus_preview_decision_params.json \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/pickref_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/config/pickref_params.xml \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/quick_visibility_white_list:$(TARGET_COPY_OUT_ODM)/etc/camera/config/quick_visibility_white_list \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/config/sr_params.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/config/sr_params.xml \
@@ -119,629 +87,16 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/dng/ToneCurve_lexuswide.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/dng/ToneCurve_lexuswide.txt \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/dualcal_golden.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/dualcal_golden.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/eis_camera.vcfg \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/InitParams.json:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/InitParams.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/BDET.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/BDET.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/BG.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/BG.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/DB.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/DB.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/FS.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/FS.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/F_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_C.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_A.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/F_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SE_B.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_A.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/F_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/F_SL_B.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/PRSG.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/PRSG.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_GP_A.bix:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_GP_A.bix \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_A.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_B.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SE_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SE_C.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_A.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_B.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RM_SL_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RM_SL_C.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RT_A.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_A.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RT_B.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_B.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RT_C.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_C.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RT_D.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_D.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/RT_E.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/RT_E.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facerestore/fr_models/faceRestoreSnapMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/facerestore/fr_models/faceRestoreSnapMask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/facesr_hd_composite_ff_4.0.13_qcom7675_ppl3_ocl_qualitybin.model:$(TARGET_COPY_OUT_ODM)/etc/camera/facesr_hd_composite_ff_4.0.13_qcom7675_ppl3_ocl_qualitybin.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_default:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_default \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/000.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/000_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/000_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/000_pre.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/001.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/001_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/001_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/001_pre.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/002.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/002_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/002_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/003.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/003_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/003_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/003_pre.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/010.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/010_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/010_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/010_pre.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/011.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/011_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/011_pre.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/011_pre.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/012.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/012_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/012_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/013.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/013.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/100.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/100_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/100_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/101.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/101_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/101_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/102.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/102_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/102_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/103.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/103_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/103_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/110.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/110_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/110_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/111.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/111_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/111_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/112.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/112_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/112_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/113.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/113.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/200.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/200_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/200_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/201.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/201_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/201_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/202.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/202_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/202_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/203.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/203_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/203_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/210.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/210_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/210_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/211.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/211_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/211_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/212.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/212_pre.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/212_pre.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/213.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/213.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/AIdeblemishSnapMask2.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/AIdeblemishSnapMask2.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_00.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_01.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_02.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_03.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_10.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_11.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_12.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_13.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_BW.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_BW.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/SkinLUT_Red.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/SkinLUT_Red.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/beauty_body.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/beauty_body.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/brightLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/brightLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/brightLut.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eyeBright.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyeBright.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eye_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eye_retouch_chinese.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eyesMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eyesMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMask.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eyesMaskNew.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/eyesMaskNew.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/eyesMaskNew.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/face_faceshadow_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_faceshadow_chinese.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/face_facewarp_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_facewarp_chinese.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/face_retouch_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_chinese.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/face_retouch_pre_chinese_wechat.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/mouthmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/mouthmask.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/preSkinmask137.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/preSkinmask137.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask137.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/preSkinmask296.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/preSkinmask296.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/redToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/redToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/redToneLut.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUT_white_Bright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUT_white_Bright.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs00.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs01.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs02.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs03.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs04.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs04.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs05.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs05.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs06.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs06.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs10.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs11.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs12.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs13.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_00.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_00.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_01.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_01.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_02.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_02.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_03.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_03.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_10.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_10.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_11.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_11.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_12.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_12.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinLUTs_yuv16_13.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinLUTs_yuv16_13.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinmask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/skinmask_new.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/skinmask_new.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapEyeBright.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeBright.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapEyeMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapEyeMask.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapEyeMask.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale000.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale000.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale001.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale001.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale002.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale002.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale003.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale003.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale100.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale100.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale101.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale101.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale102.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale102.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapFemale103.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapFemale103.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale010.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale011.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale011.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale012.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale012.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale110.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale110.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale111.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale111.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMale112.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMale112.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapMouthMask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapMouthMask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/snapSkinmask.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/snapSkinmask.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/unify_skin_base.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/unify_skin_base.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/whiteToneLut.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_model/whiteToneLut.png:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_model/whiteToneLut.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/fb_original:$(TARGET_COPY_OUT_ODM)/etc/camera/fb_original \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/fdc_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_cl.cache \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/fdc_lite_cl.cache:$(TARGET_COPY_OUT_ODM)/etc/camera/fdc_lite_cl.cache \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/B1VLf4peM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1VLf4peM \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/B1aMqioxf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1aMqioxf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/B1nmcmWbG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1nmcmWbG \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/B1si_XbZz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B1si_XbZz \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/B612Pretty.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/B612Pretty.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/BJJAwoigM:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJJAwoigM \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/BJyKIwqxz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BJyKIwqxz \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BeautyplusMellow-5.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/ByW7g4bbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByW7g4bbf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/ByYo3If \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/BycYf7WWz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/BycYf7WWz \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_A_MoneyBall.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/DL_B_Inception.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_B_Inception.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/DL_C_R3_80.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_C_R3_80.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/EyxRbD2UCe:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/EyxRbD2UCe \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/FaceappGrayscale.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/InsClarendon.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsClarendon.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/InsJuno.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsJuno.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/InsValencia-2.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP1-soft-2.6.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP2-pop-4.1.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/PP3-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/SJ3mbr6ef:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SJ3mbr6ef \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/SkpZ8ebbz:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SkpZ8ebbz \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SnapseedBright.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/SweetSnapAlice-3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Sy4uLSTgf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Sy4uLSTgf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Syt2KeZZf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Syt2KeZZf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V01-landscape-2.6.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V02-portrait-2.5.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V03-food-2.0.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V04-night-1.3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/V05-mono-3.3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/White.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/YoucamAdorable80.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/b-w-P8.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/black_gold.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bowu-2.1.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/bright_coloured.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/calm-V5.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/candy-P7.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cola.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/cyberpunk-neoMilitarism-2.4-final.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/default:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/default \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-P3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/delight-V1.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw1994.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/drjw2010.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/f_bin_hideaki:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_bin_hideaki \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_candy_water_weak.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/f_contrast_gray_face_dark:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_contrast_gray_face_dark \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_fuji_strong.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/f_japan_strong.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/farewell-V7.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-earth.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-earth.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-japan.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-japan.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-lake.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-lake.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-rosy.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-rosy.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/interstellar_space.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jiari-2.0.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/lvtu-2.0.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/meiwei-2.2.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mellow-V3.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-P5.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/misty-V4.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/mono.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural-P1.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/natural.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-black-gold-1.1-RGB.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-cyberpunk-RGB.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-r-infra-RGB.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_SAREK_III.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_VAEROY_III.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_YLLAAS.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_r4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r4.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_r5.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r5.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_r6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_r6.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_black_and_white \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_highlight \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_ins \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_natal \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_olympus \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_plain \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_show \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_solar \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_strong \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oplus_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oplus_video_filter_west \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_black_and_white:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_black_and_white \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_highlight:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_highlight \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_ins:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_ins \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_natal:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_natal \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_olympus:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_olympus \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_plain:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_plain \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_show:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_show \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_solar:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_solar \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_strong:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_strong \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/oppo_video_filter_west:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/oppo_video_filter_west \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/p4_2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_2.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/p4_4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/p4_4.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/qiuri-2.0.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/r1JaFSZZG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1JaFSZZG \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/r1PrfoolG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/r1PrfoolG \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJ5g5vPWG \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/rJxJtmaez:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rJxJtmaez \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/rkMhq4ZWf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkMhq4ZWf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/rkx5u4Zbf:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/rkx5u4Zbf \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/senlin-2.0.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/serene-P9.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-P2.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/sweet-V2.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/type_fuji_acros:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_acros \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/type_fuji_astia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_astia \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/type_fuji_chrome:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_chrome \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/type_fuji_provia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_provia \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/type_fuji_velvia:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/type_fuji_velvia \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_lut/yuanqi-2.2s.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_res/film_grain_small.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/film_grain_small.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_res/lut_all_points.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/lut_all_points.png \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/filters_res/overlay_p4_3_weak.png:$(TARGET_COPY_OUT_ODM)/etc/camera/filters_res/overlay_p4_3_weak.png \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/fwk_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/fwk_config.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gasryuv_1.2_wp.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gasryuv_1.2_wp.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/modules/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_det_v11.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/modules/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_kp_v6.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/modules/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/modules/tt_hand_lr_v3.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v12.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_box_reg_v13.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_box_reg_v13.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_det_v11.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v11.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_det_v12.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_det_v12.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.1.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_gesture_v11.3.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_gesture_v11.3.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_kp_v6.1.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_kp_v6.1.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.0.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_lr_v3.2.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_lr_v3.2.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/gesture/tt_hand_shouxinbei_v1.0.model:$(TARGET_COPY_OUT_ODM)/etc/camera/gesture/tt_hand_shouxinbei_v1.0.model \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/gm_tcs3449_golden:$(TARGET_COPY_OUT_ODM)/etc/camera/gm_tcs3449_golden \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/libiceainr_model.dlc:$(TARGET_COPY_OUT_ODM)/etc/camera/libiceainr_model.dlc \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libODNN.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libODNN.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libOPAlgoCamCoverEnhancer.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libOPAlgoCamCoverEnhancer.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libsharebuffer.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libtrace.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libtrace.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/libs/libzlib.so:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/libs/libzlib.so \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8635.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/RRDBNet_sm8635.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/models/blurDet_sm8635.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/blurDet_sm8635.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/models/faceSeg_sm8635.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/faceSeg_sm8635.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/livephoto_coverenhancer/models/gfpgan1024_sm8635.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/livephoto_coverenhancer/models/gfpgan1024_sm8635.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/main_inv_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_inv_mapxy_33x25.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/main_mapxy_33x25.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/main_mapxy_33x25.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/camera/media_profiles.xml \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/800t_blues.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_blues.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/800t_hdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_hdr.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/800t_sdr.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/800t_sdr.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/ByYo3If:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/ByYo3If \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Cold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Cold.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/DL_A_MoneyBall.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_A_MoneyBall.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/DL_B_Inception.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_B_Inception.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/DL_C_R3_80.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_C_R3_80.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_D_G4.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/DL_L_B6.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Delta400.3dl.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Delta400.3dl.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Emerald.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Emerald.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Martin.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Martin.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/OPLUSR0604.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Radiance.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Radiance.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Serenity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Serenity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/Texture-70.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/Texture-70.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/White.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/White.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/black_gold.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/black_gold.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/blackandwhite.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/bright_coloured.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/bright_coloured.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/city.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/cola.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cola.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/cyberpunk-kitsch-3.1.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/drjw1994.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw1994.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/drjw2010.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/drjw2010.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji-cc-high.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-high.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji-cc-low.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-cc-low.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-eterna-v2.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji-nc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-nc.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji-proNegHi.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji-proNegHi.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/fuji_cc.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/fuji_cc.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gourmet.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gourmet.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-24hour-city.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-3dcity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-after-glow.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-azure-water.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-beach.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-beach.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-blue-water.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-coco-grove.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-crisp-fall.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-desert.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-desert.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-glazed-tile.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-mountainous.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-old-times.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-quietly-ele.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/gt-steaming.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/interstellar_space.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/interstellar_space.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/island.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/island.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_sun.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/jw_surprise.CUBE.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/kodak.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/kodak.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/meicam.child.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/meicam.child.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/mono.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mono.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/morandi.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morandi.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/morning.dream.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/morning.dream.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/mountains.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/mountains.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/natural.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/natural.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/neon-2020.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/neon-2020.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/nostalgic.scene.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-black-gold.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-cyberpunk.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-nightcity.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/oplus-yellow-blue.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/p4_1.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_1.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/p4_3.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/p4_3.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/rJ5g5vPWG:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/rJ5g5vPWG \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/red-red.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/red-red.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/sky-blue.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/sky-blue.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tone-of-light.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/tree-green.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/tree-green.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-cool.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-lut.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/meishe_lut/vivid-warm.cube.rgb.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/model/DocDetectV15.xbin:$(TARGET_COPY_OUT_ODM)/etc/camera/model/DocDetectV15.xbin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/model_fdc.data:$(TARGET_COPY_OUT_ODM)/etc/camera/model_fdc.data \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/mvg_sat_config.json:$(TARGET_COPY_OUT_ODM)/etc/camera/mvg_sat_config.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/neon_yuv_LUT_64.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/neon_yuv_LUT_64.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/oplus_eis_camera.vcfg:$(TARGET_COPY_OUT_ODM)/etc/camera/oplus_eis_camera.vcfg \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/ColorLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/ColorLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/CurveLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/CurveLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/colorLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/curveLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/curveLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/frameSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/frameSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param0.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param0.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param1.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param1.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param10.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param10.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param11.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param11.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param12.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param12.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param13.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param13.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param14.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param14.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param15.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param15.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param16.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param16.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param17.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param17.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param18.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param18.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param2.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param2.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param3.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param3.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param4.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param4.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param5.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param5.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param6.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param6.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param7.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param7.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param8.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param8.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/param9.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/param9.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/photoSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/photoSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/platformSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/colormap/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/colormap/sceneList.txt \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/ColorLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/ColorLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/CurveLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/CurveLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/colorLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/curveLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/curveLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/frameSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/frameSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param0.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param0.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param1.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param1.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param10.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param10.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param11.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param11.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param12.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param12.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param13.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param13.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param14.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param14.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param15.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param15.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param16.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param16.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param17.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param17.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param18.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param18.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param2.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param2.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param3.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param3.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param4.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param4.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param5.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param5.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param6.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param6.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param7.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param7.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param8.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param8.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/param9.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/param9.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/photoSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/photoSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/platformSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/normal/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/normal/sceneList.txt \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/ColorLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/ColorLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/CurveLut:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/CurveLut \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/colorLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/colorLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut0:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut0 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut1:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut1 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut10:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut10 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut11:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut11 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut12:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut12 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut13:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut13 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut14:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut14 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut15:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut15 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut16:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut16 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut17:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut17 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut18:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut18 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut2:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut2 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut3:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut3 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut4:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut4 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut5:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut5 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut6:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut6 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut7:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut7 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut8:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut8 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/curveLut9:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/curveLut9 \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/frameSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/frameSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param0.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param0.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param1.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param1.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param10.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param10.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param11.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param11.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param12.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param12.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param13.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param13.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param14.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param14.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param15.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param15.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param16.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param16.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param17.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param17.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param18.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param18.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param2.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param2.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param3.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param3.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param4.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param4.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param5.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param5.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param6.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param6.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param7.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param7.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param8.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param8.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/param9.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/param9.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/photoSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/platformSet.ini \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/pf/PerfectColorSet/portrait/sceneList.txt \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreCalVarBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreCalVarBinary.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreHighPassBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassBinary.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreHighPassPreBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreHighPassPreBinary.bin \
@@ -756,27 +111,12 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreSurfaceBlurBinary.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertFilterBinary.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/PreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/PreVertSurBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreHoriFilterBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreMorphBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreOnlywhitenBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreSkintuneMRTBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertFilterBinary.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/pfb_bin/ThirdPartyPreVertSurBinary.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/qnn_binary_3399573213435001949.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/qnn_binary_3399573213435001949.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/salient2_seg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/salient2_seg.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/self_ois.ocfg:$(TARGET_COPY_OUT_ODM)/etc/camera/self_ois.ocfg \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/selfbokehParam.json:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehParam.json \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/selfbokehmodel.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/selfbokehmodel.bin \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/settings_fdc.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc.txt \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/settings_fdc_lite.txt:$(TARGET_COPY_OUT_ODM)/etc/camera/settings_fdc_lite.txt \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/singleblur/personseg.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/personseg.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/singleblur/preview_seg.json:$(TARGET_COPY_OUT_ODM)/etc/camera/singleblur/preview_seg.json \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/stereoParams.bin:$(TARGET_COPY_OUT_ODM)/etc/camera/stereoParams.bin \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/sticker/M_SenseME_Action_5.2.12.model:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/M_SenseME_Action_5.2.12.model \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/sticker/material/animoji/data.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/data.zip \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip:$(TARGET_COPY_OUT_ODM)/etc/camera/sticker/material/animoji/snowleopard_v_0_0_0_9.zip \
-    vendor/oneplus/lexus/proprietary/odm/etc/camera/text_enhance_yuv_v1.tflite:$(TARGET_COPY_OUT_ODM)/etc/camera/text_enhance_yuv_v1.tflite \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/tonemap/curve_lut_0:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_0 \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/tonemap/curve_lut_1:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_1 \
     vendor/oneplus/lexus/proprietary/odm/etc/camera/tonemap/curve_lut_10:$(TARGET_COPY_OUT_ODM)/etc/camera/tonemap/curve_lut_10 \
@@ -1213,13 +553,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/lexus/proprietary/vendor/lib64/camera/fdconfigsecure.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigsecure.bin \
     vendor/oneplus/lexus/proprietary/vendor/lib64/camera/fdconfigvideo.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideo.bin \
     vendor/oneplus/lexus/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/imx480_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx480_3.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/imx615_2.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx615_2.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/imx615_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx615_3.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/imx709_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx709_3.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/imx809_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/imx809_3.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/s5k3p9_2.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_2.pb \
-    vendor/oneplus/lexus/proprietary/vendor/lib64/camera/s5k3p9_3.pb:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/s5k3p9_3.pb \
     vendor/oneplus/lexus/proprietary/vendor/lib64/libpnc_cl_program.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/libpnc_cl_program.bin
 
 PRODUCT_PACKAGES += \
@@ -1229,39 +562,6 @@ PRODUCT_PACKAGES += \
     com.qti.eeprom.truly_cmb433 \
     com.qti.ois.bu63169gwz \
     com.qti.ois.dw9784 \
-    com.qti.sensor.imx362 \
-    com.qti.sensor.imx363 \
-    com.qti.sensor.imx376 \
-    com.qti.sensor.imx386 \
-    com.qti.sensor.imx476 \
-    com.qti.sensor.imx481 \
-    com.qti.sensor.imx519 \
-    com.qti.sensor.imx563 \
-    com.qti.sensor.imx576 \
-    com.qti.sensor.imx586 \
-    com.qti.sensor.imx588 \
-    com.qti.sensor.imx686 \
-    com.qti.sensor.imx688 \
-    com.qti.sensor.imx766 \
-    com.qti.sensor.lyt808 \
-    com.qti.sensor.max7366_6dof \
-    com.qti.sensor.max7366_eyetrack \
-    com.qti.sensor.max7366_ov6211 \
-    com.qti.sensor.max7366_ov9282 \
-    com.qti.sensor.ov13855 \
-    com.qti.sensor.ov64b40 \
-    com.qti.sensor.ov7251 \
-    com.qti.sensor.s5k2l7 \
-    com.qti.sensor.s5k2x5sp \
-    com.qti.sensor.s5k33dxx \
-    com.qti.sensor.s5k3m5 \
-    com.qti.sensor.s5k3p9 \
-    com.qti.sensor.s5k4h7 \
-    com.qti.sensor.s5k5e9yu05 \
-    com.qti.sensor.s5k5e9yx04 \
-    com.qti.sensor.s5khp1s \
-    com.qti.sensor.s5kjd1sp \
-    com.qti.sensor.s5kjn1 \
     com.arcsoft.node.smooth_transition \
     com.qti.eisv2 \
     com.qti.eisv3 \
@@ -1390,7 +690,6 @@ PRODUCT_PACKAGES += \
     libaidenoiser \
     libaidenoiserv2 \
     libarcsoft_triple_sat \
-    libarcsoft_triple_zoomtranslator \
     libbacklight-calib \
     libbitmlengine \
     libbitmlenginev2 \
@@ -1480,7 +779,6 @@ PRODUCT_PACKAGES += \
     libqllengine \
     libqrtrclient \
     libqseed3 \
-    libqsegnet \
     libqshcamera \
     librcmask \
     libsdedrm \
@@ -1545,50 +843,20 @@ PRODUCT_PACKAGES += \
     com.oplus.node.sstabphoto \
     com.oplus.node.sstabrealt \
     camera.oemlayer \
-    lib2DSlender \
     libAF \
-    libAlgoInterface \
-    libAlgoProcess \
-    libAncFilter \
-    libAncHumVideoBase \
-    libAncHumanDoubleExposure \
-    libAncHumanSegFigureFusion \
-    libAncSegBaseSdk \
-    libAncSegMultiSdk \
     libAncSegmentSdk \
-    libBokehPre \
     libCOppLceTonemapAPI \
     libCS \
-    libCaptureBokeh \
-    libDeVIS \
     libEIS \
     libFDClite \
-    libFaceBeautyCap \
-    libFaceBeautyJni \
-    libFaceBeautyPICap \
-    libFaceBeautyPre \
     libFaceDistortionCorrection \
-    libFilterWrapper \
-    libHDRDetection \
     libHIS \
-    libImageWarpMask \
     libODNN \
     libOGLManager \
-    libOPAlgoCamAIBeautyBodyDetection \
-    libOPAlgoCamAiBeautyFaceRetouchCn \
-    libOPAlgoCamFaceBeautyCap \
-    libOPAlgoCamFaceRestore \
-    libOPAlgoCamGroupClassifier \
-    libOPAlgoCamSinglePortrait \
-    libOPLUSMotionDetection \
     libOplusPDCore \
     libOpo_awb \
     libPanelChaplin \
-    libPerfectColor \
-    libPerfectlyClearCruxOpt \
     libPlatformValidatorShared \
-    libPolarrRender \
-    libPreviewDecisionOld \
     libQnnCpu \
     libQnnGpu \
     libQnnHtp \
@@ -1597,21 +865,12 @@ PRODUCT_PACKAGES += \
     libQnnHtpV73Stub \
     libQnnSaver \
     libQnnSystem \
-    libRedeyeReduce \
     libSNPE \
-    libSnpeCpu \
-    libSnpeGpu \
-    libSnpeHtpPrepare \
-    libSnpeHtpV73Stub \
-    libSuperRaw \
-    libSuperTextWrapper \
     libUpScale \
     libVDBayerHDR \
     libVDBlurless \
     libVDExternal \
     libVDSuperPhotoAPI \
-    libWaterMark \
-    libXDocProcessSDK \
     libYTCommon \
     lib_geofencing \
     lib_rectify \
@@ -1623,8 +882,6 @@ PRODUCT_PACKAGES += \
     libaiboost_qnn_external_delegate_te \
     libaiboost_te \
     libaisal \
-    libaisd \
-    libaiseg \
     libalCFR \
     libalog \
     libalogencrypt \
@@ -1638,71 +895,29 @@ PRODUCT_PACKAGES += \
     libapsultrahdr \
     libapsyuv \
     libarc.ion \
-    libarcsoft_ai_moon \
-    libarcsoft_distortion_correction \
-    libarcsoft_dualcam_bokeh_api \
-    libarcsoft_dualcam_bokeh_image \
-    libarcsoft_dualcam_bokeh_preview \
-    libarcsoft_dualcam_refocus_left \
-    libarcsoft_dualcam_refocus_preview \
-    libarcsoft_dualcam_refocus_uw \
-    libarcsoft_hdr_couple_api \
-    libarcsoft_hdr_denoise_api \
-    libarcsoft_high_dynamic_range \
-    libarcsoft_high_dynamic_range_couple \
-    libarcsoft_high_dynamic_range_couple_v4 \
-    libarcsoft_high_dynamic_range_v4 \
-    libarcsoft_lensstaindetection \
-    libarcsoft_long_exposure_capture \
-    libarcsoft_long_exposure_preview \
-    libarcsoft_low_light_hdr \
-    libarcsoft_merge_hdr_denoise_api \
-    libarcsoft_preview_antibanding \
-    libarcsoft_qnnhtp \
-    libarcsoft_scbokeh_video \
-    libarcsoft_smart_denoise \
-    libarcsoft_smart_denoise_v4 \
-    libarcsoft_turbo_fusion_raw_portrait_super_night \
-    libarcsoft_turbo_fusion_raw_super_night \
-    libarcsoft_turbo_hdr_grf \
-    libarcsoft_turbo_hdr_raw \
-    libarcsoft_turbo_hdr_raw_front \
-    libarcsoft_turbo_raw \
-    libarcsoft_ultra_high_dynamic_range \
     libarcsoft_videoautozoom \
     libc++_shared \
     libcalculator \
     libcalculator_htp \
     libcreatebin \
-    libcreatebinForBaseretouch \
     libcvface_api \
     libdisplayaidlapis \
     libdolbyclstc \
     libdpaservice \
-    libeffect_custom \
     libexif-jpeg-aps \
     libextendfile \
     libextensionlayer \
     libfovctrl \
     libhwconfigurationutil \
-    libhyperlapse \
-    libiceainr \
-    libimgClarityEvaluate \
     libml_util \
     libmpbase \
-    libmsnativefilter \
     libmvgcommon \
-    libnpu \
     libocce3a \
     liboemconfigurationutil \
-    libofm \
     liboprec_audrec \
     liboprec_audrec_wrapper \
-    libosie_process \
-    libosie_stub \
     libpdCustomParamParser \
     libpngwrapper \
-    libportrait_repair_ppl3_ocl \
     libpwirisfeature \
     libpwirishalwrapper \
     libqsh.utils \
@@ -1711,17 +926,13 @@ PRODUCT_PACKAGES += \
     libsaveshaderbin \
     libsharebuffer \
     libsharebuffer_impl \
-    libsnpe_loader \
-    libstface_fd_api \
     libstfd_mobile_api \
     libtensorflowlite_oplus \
     libtfa98xx \
-    libtfavib \
     libthirdcapability \
     libtrace \
     libvega_common \
     libvega_face \
-    libwatermark_photo \
     libwrapper_te \
     libyuv2 \
     libyuvwrapper \
